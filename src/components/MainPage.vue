@@ -5,11 +5,7 @@ import MainPagination from '@/components/MainPagination.vue'
 </script>
 
 <template>
-  <div class="wrapper">
-    <MainSearch />
-    <MainCards />
-    <MainPagination />
-  </div>
+  <div class="wrapper">This is where the character sheet will appear</div>
 </template>
 
 <style scoped lang="postcss">

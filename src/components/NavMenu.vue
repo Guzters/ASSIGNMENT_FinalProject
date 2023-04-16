@@ -21,7 +21,7 @@ const brand = ref(import.meta.env.VITE_APP_NAME)
           >
         </i>
         <div v-if="isAuthenticated">
-          <RouterLink :to="{ name: 'Settings' }" href="#" class="menu-item">Settings</RouterLink>
+          <RouterLink :to="{ name: 'Database' }" href="#" class="menu-item">Database</RouterLink>
           <button href="#" class="menu-logout" @click="logout">Logout</button>
         </div>
         <div v-else>
@@ -34,12 +34,12 @@ const brand = ref(import.meta.env.VITE_APP_NAME)
 
 <style scoped lang="postcss">
 nav {
-  @apply flex h-20 bg-stone-800 text-slate-100;
+  @apply flex h-20 bg-stone-900 text-slate-100;
   .wrapper {
     @apply container mx-auto flex w-full items-center justify-between;
     .brand {
       &-title {
-        @apply text-2xl font-bold text-emerald-700;
+        @apply text-2xl font-bold text-red-700;
       }
     }
     .menu {
