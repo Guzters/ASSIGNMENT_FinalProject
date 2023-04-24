@@ -10,11 +10,14 @@ import MainPagination from '@/components/MainPagination.vue'
   <div class="wrapper">
     The finaly product will feature some sort of nice little table that will contain the stats of the character.
   </div>
-  <img src="../assets/DnD5eCharacterSheet.png" />
+  <img class="image" src="../assets/DnD5eCharacterSheet.png" />
 </template>
 
 <style scoped lang="postcss">
 .wrapper {
   @apply container mx-auto flex flex-col gap-4 py-4;
+}
+.image {
+  @apply py-6 px-60;
 }
 </style>
