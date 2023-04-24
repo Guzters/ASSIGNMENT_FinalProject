@@ -1,3 +1,4 @@
+<!-- eslint-disable prettier/prettier -->
 <script setup>
 import MainSearch from '@/components/MainSearch.vue'
 import MainCards from '@/components/MainCards.vue'
@@ -9,16 +10,11 @@ import MainPagination from '@/components/MainPagination.vue'
   <div class="wrapper">
     The finaly product will feature some sort of nice little table that will contain the stats of the character.
   </div>
-  <body>
-    <img class="picture" src="../assets/DnD 5e Character Sheet.png" />
-  </body>
+  <img src="../assets/DnD5eCharacterSheet.png" />
 </template>
 
 <style scoped lang="postcss">
 .wrapper {
   @apply container mx-auto flex flex-col gap-4 py-4;
-}
-.picture {
-  @apply max-w-screen-xl pl-60;
 }
 </style>
