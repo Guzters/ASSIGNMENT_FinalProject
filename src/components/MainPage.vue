@@ -10,7 +10,7 @@ import MainPagination from '@/components/MainPagination.vue'
     The finaly product will feature some sort of nice little table that will contain the stats of the character.
   </div>
   <body>
-    <img class="picture" src="../../DnD 5e Character Sheet.jpg" />
+    <img class="picture" src="../assets/DnD 5e Character Sheet.png" />
   </body>
 </template>
 
